@@ -15,7 +15,7 @@ func main() {
 	// The first argument, zero item from slice,
 	// is the name of the called binary
 	programName := args[0]
-	fmt.Printf("The binary name is: %s", programName)
+	fmt.Printf("The binary name is: %s \n", programName)
 
 	// The rest of the arguments could be obtained
 	// by omitting the first argument.
