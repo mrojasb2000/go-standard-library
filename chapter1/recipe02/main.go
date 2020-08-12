@@ -8,6 +8,11 @@ import (
 func main() {
 	args := os.Args
 
+	// Check length slice
+	if len(args) <= 1 {
+		fmt.Println("program arguments not found")
+		return
+	}
 	// This call will print
 	// all command line arguments.
 	fmt.Println(args)
