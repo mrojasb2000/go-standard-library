@@ -19,7 +19,7 @@ func main() {
 
 	// The rest of the arguments could be obtained
 	// by omitting the first argument.
-	otherArgs := args[1]
+	otherArgs := args[1:]
 	fmt.Println(otherArgs)
 
 	for idx, arg := range args {
