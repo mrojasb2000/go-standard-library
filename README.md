@@ -12,3 +12,6 @@
   - `export DB_CONN=db:/user@example && go run get.go`
   - `unset DB_CONN && go run lookup.go`
   - `go run main.go`
+
+### Retrieving the current working directory
+  - `go build -o binary`  
