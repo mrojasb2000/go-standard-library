@@ -19,3 +19,6 @@
 ### Getting the current process PID
   - `go run main.go`
 
+### Handling operating system signals
+  - `go run main.go`  
+
