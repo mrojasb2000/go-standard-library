@@ -22,3 +22,6 @@
 ### Handling operating system signals
   - `go run main.go`  
 
+### Calling an external process
+  - `go run run.go`
+  - `go run start.go`
