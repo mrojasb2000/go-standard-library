@@ -14,4 +14,8 @@
   - `go run main.go`
 
 ### Retrieving the current working directory
-  - `go build -o binary`  
+  - `go build -o binary`
+
+### Getting the current process PID
+  - `go run main.go`
+
