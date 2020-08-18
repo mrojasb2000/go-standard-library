@@ -33,3 +33,6 @@
   - `go run main_read_output.go`
   - `go run main_read_stdout.go`
   - `go run main.go`
+
+### Shutting down the application gracefully
+  - `go run main.go`  
