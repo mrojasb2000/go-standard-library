@@ -27,4 +27,9 @@
   - `go run start.go`
 
 ### Retrieving child process information
-  - `go run main_running.go`  
+  - `go run main_running.go`
+
+### Reading/writing from the child process
+  - `go run main_read_output.go`
+  - `go run main_read_stdout.go`
+  - `go run main.go`
