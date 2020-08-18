@@ -25,3 +25,6 @@
 ### Calling an external process
   - `go run run.go`
   - `go run start.go`
+
+### Retrieving child process information
+  - `go run main_running.go`  
