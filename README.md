@@ -35,4 +35,7 @@
   - `go run main.go`
 
 ### Shutting down the application gracefully
+  - `go run main.go`
+
+### File configuration with functional options
   - `go run main.go`  
