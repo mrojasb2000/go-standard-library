@@ -37,13 +37,14 @@ func FromFile(path string) ConfigFunc {
 		defer f.Close()
 		decoder := json.NewDecoder(f)
 		fop := struct {
-			ConsulIP string `json:"consul_ip"`
+			ConsulIP   string `json:"consul_ip"`
+			ConsulPort string `json:"consul_port"`
 		}{}
 		err = decoder.Decode(&fop)
 		if err != nil {
 			panic(err)
 		}
-		opt.consulIP = fop.ConsulIP
+		opt.consulIP = fmt.Sprintf("%s:%s", fop.ConsulIP, fop.ConsulPort)
 	}
 }
 

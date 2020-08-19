@@ -1,3 +1,4 @@
 {
-    "consul_ip":"127.0.0.1"
+    "consul_ip":"127.0.0.1",
+    "consul_port":"3000"
 }
