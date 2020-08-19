@@ -47,4 +47,4 @@
 ## Chapter 2
 
 ### Finding the substring in a string
-  - ``
+  - `go run contains.go`
