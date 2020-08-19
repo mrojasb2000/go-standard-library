@@ -48,3 +48,9 @@
 
 ### Finding the substring in a string
   - `go run contains.go`
+
+### Breaking the string into words
+  - `go run whitespace.go`
+  - `go run anyother.go`
+  - `go run specfunction.go`
+  - `go run regex.go`
