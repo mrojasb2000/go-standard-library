@@ -54,3 +54,7 @@
   - `go run anyother.go`
   - `go run specfunction.go`
   - `go run regex.go`
+
+### Joining the string slice with a separator
+  - `go run join.go`
+  - `go run join_manually.go`  
