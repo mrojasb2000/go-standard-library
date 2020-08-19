@@ -39,3 +39,4 @@
 
 ### File configuration with functional options
   - `go run main.go`  
+  - `export CONN_DB=db:/user@example && go run main.go`
