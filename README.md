@@ -80,3 +80,9 @@
 ### Aligning text with tabwriter
 
 - `go run tabwriter.go`
+
+### Replacing part of the string
+
+- `go run replace.go`
+- `go run replacer.go`
+- `go run regexp.go`
