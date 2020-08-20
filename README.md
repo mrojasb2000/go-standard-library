@@ -90,3 +90,8 @@
 ### Finding the substring in text by regexp pattern
 
 - `go run regexp.go`
+
+### Decoding a string from the non-Unicode charset
+
+- `go run decode.go`
+- `go run encode.go`
