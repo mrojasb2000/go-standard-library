@@ -74,3 +74,9 @@
 ### Concatenating a string with writer
 
 - `go run concat_buffer.go`
+- `go run concat_copy.go`
+- `go test -bench=.`
+
+### Aligning text with tabwriter
+
+- `go run tabwriter.go`
