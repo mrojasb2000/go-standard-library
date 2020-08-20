@@ -86,3 +86,7 @@
 - `go run replace.go`
 - `go run replacer.go`
 - `go run regexp.go`
+
+### Finding the substring in text by regexp pattern
+
+- `go run regexp.go`
