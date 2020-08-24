@@ -95,3 +95,7 @@
 
 - `go run decode.go`
 - `go run encode.go`
+
+### Controlling case
+
+- `go run case.go`
