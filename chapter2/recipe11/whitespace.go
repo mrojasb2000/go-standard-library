@@ -9,11 +9,11 @@ import (
 )
 
 func main() {
-	stringToTrim := "\t\t\n Go \tist\t Awesome \t\t"
+	stringToTrim := "\t\t\n Go \tis\t Awesome \t\t"
 	trimResult := strings.TrimSpace(stringToTrim)
 	fmt.Println(trimResult)
 
-	stringWithSpaces := "\t\t\n Go \tist\n Awesome \t\t"
+	stringWithSpaces := "\t\t\n Go \tis\n Awesome \t\t"
 	r := regexp.MustCompile("\\s+")
 	replace := r.ReplaceAllString(stringWithSpaces, " ")
 	fmt.Println(replace)
