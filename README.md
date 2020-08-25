@@ -99,3 +99,8 @@
 ### Controlling case
 
 - `go run case.go`
+
+### Parsing comma-separated data
+
+- `go run data.go`
+- `go run data_uncommon.go`
