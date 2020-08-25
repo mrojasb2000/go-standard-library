@@ -108,3 +108,7 @@
 ### Managing white-space in a string
 
 - `go run whitespace.go`
+
+### Indenting a text document
+
+- `go run main.go`
