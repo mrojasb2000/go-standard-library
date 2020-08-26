@@ -23,8 +23,8 @@ func main() {
 }
 
 // IndentByRune indenting the input by given indent and rune
-func IndentByRune(input string, ident int, r rune) string {
-	return strings.Repeat(string(r), ident) + input
+func IndentByRune(input string, indent int, r rune) string {
+	return strings.Repeat(string(r), indent) + input
 }
 
 // Indent indenting the input by given indent
