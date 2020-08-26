@@ -118,3 +118,7 @@
 ### Converting strings to numbers
 
 - `go run main.go`
+
+### Comparing floating-point numbers
+
+- `go run tolerance.go`
