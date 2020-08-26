@@ -112,3 +112,9 @@
 ### Indenting a text document
 
 - `go run main.go`
+
+## Chapter 3
+
+### Converting strings to numbers
+
+- `go run main.go`
