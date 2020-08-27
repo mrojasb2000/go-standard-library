@@ -131,3 +131,7 @@
 ### Floating-point arithmetics
 
 - `go run main.go`
+
+### Formatting numbers
+
+- `go run format.go`
