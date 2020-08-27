@@ -123,3 +123,7 @@
 
 - `go run tolerance.go`
 - `go run big.go`
+
+### Rouding floating-point numbers
+
+- `go run round.go`
