@@ -16,6 +16,8 @@ func main() {
 
 	fRound := Round(valA)
 	fmt.Printf("Rounding by custom function: %v\n", fRound)
+
+	fmt.Printf("Rounding by Math.Round function: %v\n", math.Round(valA))
 }
 
 // Round return the nearest integer.
