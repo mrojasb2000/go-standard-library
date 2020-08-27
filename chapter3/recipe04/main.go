@@ -17,9 +17,9 @@ func main() {
 	circumference := new(big.Float).Mul(pi, d)
 
 	pi64, _ := pi.Float64()
-	fmt.Printf("Circunference big.Float = %.400f\n", circumference)
+	fmt.Printf("Circumference big.Float = %.400f\n", circumference)
 
-	fmt.Printf("Circunference float64 = %.400f\n", pi64*diameter)
+	fmt.Printf("Circumference float64 = %.400f\n", pi64*diameter)
 
 	sum := new(big.Float).Add(pi, pi)
 	fmt.Printf("Sum = %.400f\n", sum)
