@@ -135,3 +135,4 @@
 ### Formatting numbers
 
 - `go run format.go`
+- `go run localized.go`
