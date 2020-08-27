@@ -127,3 +127,7 @@
 ### Rouding floating-point numbers
 
 - `go run round.go`
+
+### Floating-point arithmetics
+
+- `go run main.go`
