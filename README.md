@@ -136,3 +136,7 @@
 
 - `go run format.go`
 - `go run localized.go`
+
+### Converting between binary, octal, decimal, and hexadecimal
+
+- `go run convert.go`
