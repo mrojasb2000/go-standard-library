@@ -144,3 +144,7 @@
 ### Formatting with the correct plurals
 
 - `go run plurals.go`
+
+### Generating random numbers
+
+- `go run rand.go`
