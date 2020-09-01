@@ -148,3 +148,7 @@
 ### Generating random numbers
 
 - `go run rand.go`
+
+### Operating complex numbers
+
+- `go run complex.go`
