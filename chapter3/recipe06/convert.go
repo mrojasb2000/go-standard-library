@@ -32,7 +32,7 @@ func main() {
 	// could be done.
 }
 
-// ConvertInt converts the given stringsa value of base
+// ConvertInt converts the given strings value of base
 // to defined toBase
 func ConvertInt(val string, base, toBase int) (string, error) {
 	i, err := strconv.ParseInt(val, base, 64)

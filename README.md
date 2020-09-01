@@ -140,3 +140,7 @@
 ### Converting between binary, octal, decimal, and hexadecimal
 
 - `go run convert.go`
+
+### Formatting with the correct plurals
+
+- `go run plurals.go`
