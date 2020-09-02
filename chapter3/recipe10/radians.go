@@ -41,16 +41,16 @@ func main() {
 	// Conversion as part
 	// of type methods
 	val = Radian(1).ToDegrees().Float64()
-	fmt.Printf("Degrees: %.4f radians\n", val)
+	fmt.Printf("Degrees: %.4f degrees\n", val)
 
 	val = Degree(val).ToRadians().Float64()
 	fmt.Printf("Rad: %.4f radians\n", val)
 }
 
-func radiansToDegrees(deg float64) float64 {
+func degreeToRadians(deg float64) float64 {
 	return deg * (math.Pi / 180.0)
 }
 
-func degreeToRadians(rad float64) float64 {
+func radiansToDegrees(rad float64) float64 {
 	return rad * (180.0 / math.Pi)
 }
