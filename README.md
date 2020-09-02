@@ -159,4 +159,8 @@
 
 ### Taking logarithms
 
-- ``
+- `go run log.go`
+
+### Generating checksums
+
+- `go run checksum.go`
