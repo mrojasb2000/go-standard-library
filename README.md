@@ -152,3 +152,7 @@
 ### Operating complex numbers
 
 - `go run complex.go`
+
+### Converting between degrees and radians
+
+- `go run radians.go`
