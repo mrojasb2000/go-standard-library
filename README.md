@@ -156,3 +156,7 @@
 ### Converting between degrees and radians
 
 - `go run radians.go`
+
+### Taking logarithms
+
+- ``
