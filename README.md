@@ -165,3 +165,11 @@
 
 - `go run checksum.go`
 - `go run sha_panic.go`
+
+## Chapter 3
+
+### Finding today's date
+
+Obtaining the current date is a very common task for any system or application.
+
+- `go run today.go`
