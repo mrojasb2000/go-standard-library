@@ -164,3 +164,4 @@
 ### Generating checksums
 
 - `go run checksum.go`
+- `go run sha_panic.go`
