@@ -173,3 +173,9 @@
 Obtaining the current date is a very common task for any system or application.
 
 - `go run today.go`
+
+## Formating date to string
+
+In case the representation textual of a time value is needed, usually, certain formatting is expected. The Time type of the time package provides the ability to create the string output in the given format.
+
+- `go run format.go`
