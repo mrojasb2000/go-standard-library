@@ -179,3 +179,9 @@ Obtaining the current date is a very common task for any system or application.
 In case the representation textual of a time value is needed, usually, certain formatting is expected. The Time type of the time package provides the ability to create the string output in the given format.
 
 - `go run format.go`
+
+## Parsing the string into date
+
+The same concept as the one used in date formatting is also used by date parsing. The same reference date and layout principles can be used.
+
+- `go run parse.go`
