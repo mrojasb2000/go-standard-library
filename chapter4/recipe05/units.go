@@ -12,6 +12,10 @@ func main() {
 	dOfMonth := t.Day()
 	weekDay := t.Weekday()
 	month := t.Month()
+	hour := t.Hour()
+	minute := t.Minute()
+	second := t.Second()
 
 	fmt.Printf("The %dth day of %v is %v\n", dOfMonth, month, weekDay)
+	fmt.Printf("The %v hour %v minutes %v seconds\n", hour, minute, second)
 }
