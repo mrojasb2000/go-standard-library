@@ -197,3 +197,9 @@ The epoch es the universal system to describe the point in time. The beginning o
 The Time type also provides the API to retrieve time units from the instance. The means you are to find out what day in a month or what hour in a day the instance represents.
 
 - `go run units.go`
+
+### Date arithmetics
+
+The Time type of the time package also allows you to perform basic arithmetic on the given date and time. This way, you can find out past and future dates.
+
+- `go run arithmetics.go`
