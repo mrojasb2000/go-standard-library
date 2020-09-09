@@ -21,4 +21,8 @@ func main() {
 	r1 = t.Add(-72 * time.Hour)
 	fmt.Printf("Default date -3HRS Is: %v\n", r1)
 
+	// More comfortable api
+	// to add days/months/years
+	r1 = t.AddDate(1, 3, 2)
+	fmt.Printf("Default date +1YR +3MTH +2D is: %v\n", r1)
 }
