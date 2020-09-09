@@ -191,3 +191,9 @@ The same concept as the one used in date formatting is also used by date parsing
 The epoch es the universal system to describe the point in time. The beginning of epoch time is defined as 00:00:00 1 Jan 1970 UTC. The value of epoch is the amount of seconds since the timestamp, minus the amount of leap seconds since then.
 
 - `go run epoch.go`
+
+### Retrieve time units from the date
+
+The Time type also provides the API to retrieve time units from the instance. The means you are to find out what day in a month or what hour in a day the instance represents.
+
+- `go run units.go`
