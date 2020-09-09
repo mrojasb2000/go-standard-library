@@ -189,3 +189,5 @@ The same concept as the one used in date formatting is also used by date parsing
 ### Converting dates to epoch and vice versa
 
 The epoch es the universal system to describe the point in time. The beginning of epoch time is defined as 00:00:00 1 Jan 1970 UTC. The value of epoch is the amount of seconds since the timestamp, minus the amount of leap seconds since then.
+
+- `go run epoch.go`
