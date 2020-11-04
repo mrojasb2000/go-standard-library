@@ -213,3 +213,7 @@ Finding the difference between two dates is not an unusual task. For the operati
 Dealing with time zones is hard. A good way to handle the different time zones is keep one timezone as referential in the system and convert the others if needed.
 
 - `go run timezones.go`
+
+### Running the code block periodically
+
+Basides the code and time operations, the time package also provides support for periodic and delayed code execution. Typicaly, the application health cheks, activy checks, or many periodic job can be implemented this way.
