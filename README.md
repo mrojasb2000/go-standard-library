@@ -207,3 +207,9 @@ The Time type of the time package also allows you to perform basic arithmetic on
 ### Finding the difference between two dates
 
 Finding the difference between two dates is not an unusual task. For the operation, the Go standard package time, respectively the Time type, provides supporting methods.
+
+### Converting between time zones
+
+Dealing with time zones is hard. A good way to handle the different time zones is keep one timezone as referential in the system and convert the others if needed.
+
+- `go run timezones.go`
