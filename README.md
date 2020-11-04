@@ -203,3 +203,7 @@ The Time type also provides the API to retrieve time units from the instance. Th
 The Time type of the time package also allows you to perform basic arithmetic on the given date and time. This way, you can find out past and future dates.
 
 - `go run arithmetics.go`
+
+### Finding the difference between two dates
+
+Finding the difference between two dates is not an unusual task. For the operation, the Go standard package time, respectively the Time type, provides supporting methods.
