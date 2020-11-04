@@ -225,3 +225,9 @@ Basides the code and time operations, the time package also provides support for
 The previous recipe descrives how to execute the code periodically. This recipe will show you how to to execute the code with a delay.
 
 `go run delay.go`
+
+### Timeout long-running operations
+
+The previous recipe decribes the concept of executing the code with some delay. The same concept can be used to implement the timeout for long running operations.
+
+`go run timeout.go`
