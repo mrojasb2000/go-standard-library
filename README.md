@@ -217,3 +217,5 @@ Dealing with time zones is hard. A good way to handle the different time zones i
 ### Running the code block periodically
 
 Basides the code and time operations, the time package also provides support for periodic and delayed code execution. Typicaly, the application health cheks, activy checks, or many periodic job can be implemented this way.
+
+`go run ticker.go`
