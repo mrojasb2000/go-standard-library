@@ -245,3 +245,5 @@ When serializing the date and time information, it is necesary tho choose the pr
 Every process owns its standard input, output, and error file descriptor. The stdin serves as the input of the process. This recipe describes how to read the data from the stdin.
 
 `go run fmt.go`
+`go run scanner.go`
+`echo 'Go is awesome!' | go run reader.go`
