@@ -231,3 +231,9 @@ The previous recipe descrives how to execute the code periodically. This recipe 
 The previous recipe decribes the concept of executing the code with some delay. The same concept can be used to implement the timeout for long running operations.
 
 `go run timeout.go`
+
+### Serializing the time and date
+
+When serializing the date and time information, it is necesary tho choose the proper format. This recipe will illustrate how the time package helps to choose one and do the serialization properly.
+
+`go run serialize.go`
