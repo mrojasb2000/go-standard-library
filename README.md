@@ -237,3 +237,11 @@ The previous recipe decribes the concept of executing the code with some delay. 
 When serializing the date and time information, it is necesary tho choose the proper format. This recipe will illustrate how the time package helps to choose one and do the serialization properly.
 
 `go run serialize.go`
+
+## Chapter 5
+
+### Reading standard input
+
+Every process owns its standard input, output, and error file descriptor. The stdin serves as the input of the process. This recipe describes how to read the data from the stdin.
+
+`go run fmt.go`
