@@ -36,6 +36,7 @@ func main() {
 				done <- true
 				return
 			default:
+				fmt.Printf("Tick %v\n", time.Now().Format(time.UnixDate))
 				list = append(list, time.Now().String())
 			}
 		}
