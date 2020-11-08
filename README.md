@@ -247,3 +247,9 @@ Every process owns its standard input, output, and error file descriptor. The st
 `go run fmt.go`
 `go run scanner.go`
 `echo 'Go is awesome!' | go run reader.go`
+
+### Writing standard output and error
+
+As the previous recipe describes, each process has stdin, a stdout and stderr file descriptors. The standard approach is the use of stdout as a process output and stderr as process error output. As these are the file descriptors, the destination where the data is written could be anything, from the console to the socker. This recipe will show you how to write the stdout and sterr.
+
+`go run stdouterr.go`
