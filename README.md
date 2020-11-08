@@ -259,3 +259,10 @@ As the previous recipe describes, each process has stdin, a stdout and stderr fi
 File access is a veru common operation used to store or read the data. This recipe illustrates how to open a file by its name and path, using the standard library.
 
 `go run openfile.go`
+
+### Reading the file into a string
+
+In the previous recipes, we saw the reading from Stdin and
+the opening of the file. In this recipe, we will combine these two a little bit and how to read the file into a string.
+
+`go run readfile.go`
