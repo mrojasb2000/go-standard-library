@@ -266,3 +266,9 @@ In the previous recipes, we saw the reading from Stdin and
 the opening of the file. In this recipe, we will combine these two a little bit and how to read the file into a string.
 
 `go run readfile.go`
+
+### Reading/writing a different charset
+
+It is not an exception that the input from various sources could come in various charsets. Note that a lot of systems use the Windows operating system but there are others. Go, by default, expects that the string used in the program are UTF-8 based. If they are not, then decoding from the given charset must be deno to be able to work with the string. This recipe will show the reading and writing of the file in a charset other than UTF-8.
+
+`go run charset.go`
