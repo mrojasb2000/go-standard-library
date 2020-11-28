@@ -16,6 +16,7 @@ decoder for the given charset. The Encoder creates the encoding Writer
 which encodes the written bytes into the chosen charset. Similarly,
 the Decoder can create the decoding Reader, which decodes all read data
 from the chosen charset.
+test
 */
 func main() {
 	// Write the string
