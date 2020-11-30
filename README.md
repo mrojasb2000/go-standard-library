@@ -272,3 +272,10 @@ the opening of the file. In this recipe, we will combine these two a little bit 
 It is not an exception that the input from various sources could come in various charsets. Note that a lot of systems use the Windows operating system but there are others. Go, by default, expects that the string used in the program are UTF-8 based. If they are not, then decoding from the given charset must be deno to be able to work with the string. This recipe will show the reading and writing of the file in a charset other than UTF-8.
 
 `go run charset.go`
+
+### Seeking a position within a file
+
+In some cases, you need to read from or write to a particular location in a file, such as an indexed file. The recipe will show you how to use the position seeking in the context of flat file operations.
+
+`go run fileseek.go`
+`xxd temp/flatfile.txt`
