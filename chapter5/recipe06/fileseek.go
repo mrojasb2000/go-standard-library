@@ -18,6 +18,11 @@ position,
 This way you are able to move the cursor within the file. The Seek method
 is used in the implementation of the readLine function in the precending
 code.
+
+flatfile:
+123.Jun.......Wong......
+12..Novak.....Jurgen....
+10..Thomas....Sohlich...
 */
 const lineLength = 25
 
