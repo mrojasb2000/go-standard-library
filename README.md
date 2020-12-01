@@ -286,3 +286,10 @@ In some cases, you need to read from or write to a particular location in a file
 This recipe describes how to write and read any type in then binary form.
 
 `go run rwbinary.go`
+
+
+### Wrting to multiple writers at once
+
+When you need to write the same output into maro than one target, there is a helping hand available in the built-in package. The recipe show how to implement writing simultaneously into multiple targets.
+
+`go run multiwr.go`
