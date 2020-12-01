@@ -279,3 +279,10 @@ In some cases, you need to read from or write to a particular location in a file
 
 `go run fileseek.go`
 `xxd temp/flatfile.txt`
+
+
+### Reading and writing binry data
+
+This recipe describes how to write and read any type in then binary form.
+
+`go run rwbinary.go`
