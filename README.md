@@ -293,3 +293,10 @@ This recipe describes how to write and read any type in then binary form.
 When you need to write the same output into maro than one target, there is a helping hand available in the built-in package. The recipe show how to implement writing simultaneously into multiple targets.
 
 `go run multiwr.go`
+
+
+### Piping between writer and reader
+
+The pipes between processes are the easy way to use the output of the first process as the input of other processes. The same concept could be done in Go, for example, to pipe data from one socket to another socket, to create the tunneled connection. This recipe will show you how to to create the pipe with use of the Go built-in library.
+
+`go run pipe.go`
