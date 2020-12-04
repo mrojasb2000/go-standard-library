@@ -307,3 +307,9 @@ The pipes between processes are the easy way to use the output of the first proc
 Besides the well-known JSON and XML, Go also offers the binary format, gob. This recipe goes throught the basic concept of how to the gob package.
 
 `go run gob.go`
+
+### Reading and writing ZIP files
+
+ZIP compression is a widely used compression format. It is usual to use the ZIP format for an application to upload set or, on the other hand, export zipped files as output. This recipe will show you how to handle ZIP files programmatically with the use of the standard library.
+
+`go run zip.go`
